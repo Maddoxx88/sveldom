@@ -10,11 +10,11 @@
     <div class="flex my-4 mx-4 gap-8">
         <h1 class="text-9xl font-bold font-inter mx-auto text-white">Online Svelte Games</h1>
     </div>
-    <div class="my-8 mx-auto"> 
+    <!-- <div class="my-8 mx-auto"> 
         <button class="pushable w-96" on:click={() => handleClick()}>
             <span class="shadow"></span>
             <span class="edge"></span>
             <span class="front font-inter">Play Now &rsaquo;</span>
           </button>
-    </div>
+    </div> -->
 </div>
