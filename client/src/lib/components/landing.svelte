@@ -18,10 +18,3 @@
           </button>
     </div>
 </div>
-
-
-<style>
-    #landing-section {
-        /* background-image: url("https://www.freevector.com/uploads/vector/preview/25795/Free-Outstanding-Gaming-Vectors-2.jpg"); */
-    }
-</style>
