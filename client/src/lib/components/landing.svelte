@@ -6,17 +6,22 @@
   };
 </script>
 
-<div class="flex mx-12 my-8">
-    <div class="flex flex-col mx-4 w-2/3 gap-8">
-        <h1 class="text-9xl font-bold text-white">Online Mobile Games</h1>
-        <button class="pushable ml-2 w-96" on:click={() => handleClick()}>
+<div class="flex flex-col justify-center mx-12 my-8 h-[36rem] max-h-max" id="landing-section">
+    <div class="flex my-4 mx-4 gap-8">
+        <h1 class="text-9xl font-bold font-inter mx-auto text-white">Online Svelte Games</h1>
+    </div>
+    <div class="my-8 mx-auto"> 
+        <button class="pushable w-96" on:click={() => handleClick()}>
             <span class="shadow"></span>
             <span class="edge"></span>
-            <span class="front">Sign up and play &rsaquo;</span>
+            <span class="front font-inter">Play Now &rsaquo;</span>
           </button>
     </div>
-    <div class="flex-1 w-80"></div>
-    <div class="flex">
-        <img src="https://images.unsplash.com/photo-1518895312237-a9e23508077d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80" alt="">
-    </div>
 </div>
+
+
+<style>
+    #landing-section {
+        /* background-image: url("https://www.freevector.com/uploads/vector/preview/25795/Free-Outstanding-Gaming-Vectors-2.jpg"); */
+    }
+</style>
