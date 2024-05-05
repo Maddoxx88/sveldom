@@ -1,3 +1,3 @@
 ### sveldom
 
-2D games powered by svelte
+games powered by svelte
